@@ -1,0 +1,27 @@
+
+
+// search for docker image which has a mangement tag  
+ docker pull rabbitmq:3.13.6-management
+// now run that image 
+ docker run --rm -it -p 15672:15672 -p 5672:5672 rabbitmq:3.13.6-management
+// now open browser and search localhost:15672
+ here rabbitmq management webpage open enter username and password as guest
+// go in exchanges section
+  click on add a New exchange
+// enter the name of exchange say =>  my-exchange
+// click on add exchange 
+// now click on the new created my-exchange to open all the detailed info about exchange , binding 
+
+// now go in queue section tab 
+// click on add a new queue 
+// enter the name of queue lets say my queue name is => my-queue
+// now click on add queue 
+// now click on new created queue whose name is my-queue in tabular format
+// after clicking on exchange name in exchange section tab we go in depth after scroll in bottom side we see a option name binding => Bindings
+// after clicking on that bindings 
+// enter routing key => which we want lets say my-routing 
+   enter queue name => my-queue
+   enter routing key => my-routing
+
+// click on bind => after that on top there is tabular diagram of bind formed 
+   
