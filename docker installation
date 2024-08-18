@@ -24,4 +24,10 @@
    enter routing key => my-routing
 
 // click on bind => after that on top there is tabular diagram of bind formed 
+// now open queue section and inside queue click on queue name and open queue in details and open bindings inside that we see the tabular diagram of exchange attached with queue
+// now goo in excahange section and click on publish message 
+// now enter routing key and in the payload section write the message and click on the publish message (so it means producer send the message to particular queue with the help of
+   exchange and routing key (binding) 
+// now i have to receive the message from queue (which consumer do) for this go in the queue section and click on queue name and click on getMessages button to see the message 
+(which producer send to the queue with the help of exchange and routing key and we receive the message from queue with the help of consumer)
    
